@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am an undergraduate student majoring in Philosophy at East China Normal University (ECNU), and currently an exchange student at New York University (NYU), now in my junior year. My academic interests lie in philosophy of mind, AI philosophy, and AI for health. I have also developed a strong foundation in computer science and data analysis, which supports my research.
+I am an undergraduate student majoring in Philosophy at East China Normal University (ECNU), and an exchange student at New York University (NYU), now in my senior year. My academic interests lie in philosophy of mind, AI philosophy, and AI for health. I have also developed a strong foundation in computer science and data analysis, which supports my research.
 
 I have co-authored a paper published in Medicine & Philosophy (CSSCI) on psycho-cardiology clinical practice, and contributed to a submitted paper on AI-assisted remote cardiac rehabilitation to Research (JCR Q1). I am currently working at Pervasive Interaction Lab at Tsinghua University, focusing on a wearable physionet project. 
 
