@@ -74,7 +74,7 @@ Jiankai Tang, Taiting Lu, **Limeng Ge**, Ruichen Gu, Songqin Cheng, Kegang Wang
 - *2025.05 - 2025.10*, [Pervasive Human Computer Interaction Laboratory](https://pi.cs.tsinghua.edu.cn/), Beijing.
 
 # 📷 Moments
-- Thanks for the people who supports me along the way!
+Thanks for the people who supports me along the way!
 <div class='paper-box'><div class='paper-box-image'><div></div><img src='images/family.HEIC' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 <div class='paper-box'><div class='paper-box-image'><div></div><img src='images/selfie.JPG' alt="sym" width="100%"></div></div>
