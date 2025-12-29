@@ -75,3 +75,5 @@ Jiankai Tang, Taiting Lu, **Limeng Ge**, Ruichen Gu, Songqin Cheng, Kegang Wang
 
 # 📷 Moments
 - Thanks for the people who supports me along the way!
+<div class='paper-box'><div class='paper-box-image'><div></div><img src='images/WearNet.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
