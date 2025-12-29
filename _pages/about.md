@@ -56,13 +56,15 @@ Jiankai Tang, Taiting Lu, **Limeng Ge**, Ruichen Gu, Songqin Cheng, Kegang Wang
 </div>
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.11* Creativity Scholarship for Undergraduate Students 
+- *2024.10* Special Scholarship for Outstanding Undergraduate Students
+- *2024.10* Feng Qi Academic Excellence Scholarship
 
 # 📖 Educations
-- *2022.09 - 2026.6 (now)*, East China Normal University, Bachelor of Art, Philosophy.
-- *2023.09 - 2026.6 (now)*, Shanghai Jiao Tong Univeristy, Minor, Computer Science.
-- *2024.09 - 2025.05*, New York University, International Exchange, College of Art and Science. 
+- *2022.09 - 2026.06 (now)*, East China Normal University, Bachelor of Art, Philosophy.
+- *2025.05 - 2025.06*, Trine University, Summer Semester.
+- *2024.09 - 2025.05*, New York University, International Exchange, College of Art and Science.
+- *2023.07 - 2023.08*, University of Oxford, Summer School, Oriel College.
 
 # 💬 Invited Talks
 - *2021.06*, I'm not that good to be invited to a talk. 
@@ -72,3 +74,5 @@ Jiankai Tang, Taiting Lu, **Limeng Ge**, Ruichen Gu, Songqin Cheng, Kegang Wang
 - *2023.06 - 2023.11*, [BDA](http://www.bda.com/), Remote.
 - *2023.12 - 2024.02*, [China Development Research Foundation](https://cdrf-en.cdrf.org.cn/), Beijing.
 - *2024.06 - 2024.08*, [China Life Capital](https://www.chinalifepe.com/en/gsgq-equity-index/), Beijing.
+- *2025.03 - 2025.05*, [Shanghai Institute of AI for Education](https://aiedu.ecnu.edu.cn/), Shanghai.
+- *2025.05 - 2025.10*, [Pervasive Human Computer Interaction Laboratory](https://pi.cs.tsinghua.edu.cn/), Beijing.
