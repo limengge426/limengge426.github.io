@@ -38,6 +38,8 @@ Outside of academics, I am an avid gamer and cellist. I actively play League of 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Investigated cross-model reasoning behavior in large language models through a systematic evaluation of 44 classical syllogistic forms, uncovering consistent structural patterns in deductive inference.
 - Identified and analyzed reasoning biases such as valid–invalid asymmetry and middle-term dependence, providing empirical evidence for parallels between machine and human logical reasoning. 
+</div>
+</div>
 
 - [Philosophical reflection and educational exploration in the clinical practice of psycho-cardiology. Medicine and Philosophy], Ding, G., **Ge, L.**, Gao, B., **Medicine and Philosophy**
 
