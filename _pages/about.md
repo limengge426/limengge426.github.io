@@ -75,9 +75,22 @@ Jiankai Tang, Taiting Lu, **Limeng Ge**, Ruichen Gu, Songqin Cheng, Kegang Wang
 
 # 📷 Moments
 Thanks for the people who supports me along the way!
-<div class='paper-box'><div class='paper-box-image'><div></div><img src='images/family.HEIC' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-<div class='paper-box'><div class='paper-box-image'><div></div><img src='images/selfie.JPG' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-<div class='paper-box'><div class='paper-box-image'><div></div><img src='images/friends.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class="moments-row">
+  <div class="paper-box">
+    <div class="paper-box-image">
+      <img src="images/family.HEIC" alt="family">
+    </div>
+  </div>
+
+  <div class="paper-box">
+    <div class="paper-box-image">
+      <img src="images/selfie.JPG" alt="selfie">
+    </div>
+  </div>
+
+  <div class="paper-box">
+    <div class="paper-box-image">
+      <img src="images/friends.jpg" alt="friends">
+    </div>
+  </div>
+</div>
