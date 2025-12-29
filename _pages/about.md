@@ -24,7 +24,7 @@ I have co-authored a paper published in Medicine & Philosophy (CSSCI) on psycho-
 Beyond those, I love playing cello and video games. I have led VALORANT esports events at ECNU, managed multi-sponsor tournaments and activites. 
 
 # 🔥 News
-- *2025.06*: &nbsp;🎉🎉 Actually nothing new lol. 
+- *2025.06*: &nbsp;🎮 Reached Diamond in League of Legends (mid lane, solo queue).
 
 # 📝 Publications 
 
@@ -38,8 +38,6 @@ Beyond those, I love playing cello and video games. I have led VALORANT esports 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Investigated cross-model reasoning behavior in large language models through a systematic evaluation of 44 classical syllogistic forms, uncovering consistent structural patterns in deductive inference.
 - Identified and analyzed reasoning biases such as valid–invalid asymmetry and middle-term dependence, providing empirical evidence for parallels between machine and human logical reasoning. 
-</div>
-</div>
 
 - [Philosophical reflection and educational exploration in the clinical practice of psycho-cardiology. Medicine and Philosophy], Ding, G., **Ge, L.**, Gao, B., **Medicine and Philosophy**
 
@@ -66,13 +64,12 @@ Jiankai Tang, Taiting Lu, **Limeng Ge**, Ruichen Gu, Songqin Cheng, Kegang Wang
 - *2024.09 - 2025.05*, New York University, International Exchange, College of Art and Science.
 - *2023.07 - 2023.08*, University of Oxford, Summer School, Oriel College.
 
-# 💬 Invited Talks
-- *2021.06*, I'm not that good to be invited to a talk. 
- \| [\[video\]](https://github.com/)
-
 # 💻 Internships
 - *2023.06 - 2023.11*, [BDA](http://www.bda.com/), Remote.
 - *2023.12 - 2024.02*, [China Development Research Foundation](https://cdrf-en.cdrf.org.cn/), Beijing.
 - *2024.06 - 2024.08*, [China Life Capital](https://www.chinalifepe.com/en/gsgq-equity-index/), Beijing.
 - *2025.03 - 2025.05*, [Shanghai Institute of AI for Education](https://aiedu.ecnu.edu.cn/), Shanghai.
 - *2025.05 - 2025.10*, [Pervasive Human Computer Interaction Laboratory](https://pi.cs.tsinghua.edu.cn/), Beijing.
+
+# 📷 Moments
+- Thanks for the people who supports me along the way!
