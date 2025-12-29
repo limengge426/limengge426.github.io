@@ -43,7 +43,7 @@ Beyond those, I love playing cello and video games. I have led VALORANT esports 
 
 - [Philosophical reflection and educational exploration in the clinical practice of psycho-cardiology. Medicine and Philosophy], Ding, G., **Ge, L.**, Gao, B., **Medicine and Philosophy**
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/AAAI26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Manuscript in preparation</div><img src='images/AAAI26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [WearNet: A Multimodal Physiological Dataset from Rings, Watches, Glasses, and Earphones](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
