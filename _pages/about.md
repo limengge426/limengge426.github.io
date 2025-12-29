@@ -31,11 +31,11 @@ Outside of academics, I am an avid gamer and cellist. I actively play League of 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026 Bridge</div><img src='images/AAAI26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Consistent Biases in Large Language Models' Syllogistic Reasoning](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[Consistent Biases in Large Language Models' Syllogistic Reasoning]()
 
 **Limeng Ge**
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Project**]() <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Investigated cross-model reasoning behavior in large language models through a systematic evaluation of 44 classical syllogistic forms, uncovering consistent structural patterns in deductive inference.
 - Identified and analyzed reasoning biases such as valid–invalid asymmetry and middle-term dependence, providing empirical evidence for parallels between machine and human logical reasoning. 
 </div>
@@ -46,11 +46,11 @@ Outside of academics, I am an avid gamer and cellist. I actively play League of 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Manuscript in preparation</div><img src='images/WearNet.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[WearNet: A Multimodal Physiological Dataset from Rings, Watches, Glasses, and Earphones](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[WearNet: A Multimodal Physiological Dataset from Rings, Watches, Glasses, and Earphones]()
 
 Jiankai Tang, Taiting Lu, **Limeng Ge**, Ruichen Gu, Songqin Cheng, Kegang Wang
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Project**]() <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Built a multi-modal physiological signal database over 100 participants and developed preprocessing pipeline, including band-pass filtering, resampling, peak/valley detection, sliding-window segmentation.
 </div>
 </div>
