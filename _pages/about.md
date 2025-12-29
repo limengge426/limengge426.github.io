@@ -41,7 +41,19 @@ Beyond those, I love playing cello and video games. I have led VALORANT esports 
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+- [Philosophical reflection and educational exploration in the clinical practice of psycho-cardiology. Medicine and Philosophy], Ding, G., **Ge, L.**, Gao, B., **Medicine and Philosophy**
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/AAAI26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[WearNet: A Multimodal Physiological Dataset from Rings, Watches, Glasses, and Earphones](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+
+Jiankai Tang, Taiting Lu, **Limeng Ge**, Ruichen Gu, Songqin Cheng, Kegang Wang
+
+[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- Built a multi-modal physiological signal database over 100 participants and developed preprocessing pipeline, including band-pass filtering, resampling, peak/valley detection, sliding-window segmentation.
+</div>
+</div>
 
 # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
