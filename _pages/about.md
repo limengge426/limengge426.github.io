@@ -85,6 +85,6 @@ Thanks for the people who supports me along the way!
   </div>
 
   <div style="flex:1;">
-    <img src="images/friends.jpg" alt="friends" style="width:100%; height:auto; border-radius:10px;">
+    <img src="images/friends2.jpg" alt="friends" style="width:100%; height:auto; border-radius:10px;">
   </div>
 </div>
