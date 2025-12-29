@@ -24,7 +24,8 @@ I have co-authored a paper published in Medicine & Philosophy (CSSCI) on psycho-
 Outside of academics, I am an avid gamer and cellist. I actively play League of Legends, VALORANT, and Apex Legends, and enjoy narrative-driven and action RPGs on PlayStation, including The Last of Us, The Witcher 3, and Cyberpunk 2077, all of which I got a platinum cup. I am also a fan of Souls-like games<3 
 
 # 🔥 News
-- *2025.06*: &nbsp;🎮 Reached Diamond in League of Legends (mid lane, solo queue).
+- *2025.11*: &nbsp;📑 Paper accepted by AAAI 2026 Bridge on Logical and Symbolic Reasoning in Language Models.
+- *2025.06*: &nbsp;🎮 Reached Diamond in League of Legends (solo queue).
 
 # 📝 Publications 
 
