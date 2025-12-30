@@ -66,12 +66,13 @@ Jiankai Tang, Taiting Lu, **Limeng Ge**, Ruichen Gu, Songqin Cheng, Kegang Wang
 - *2025.05 - 2025.06*, Trine University, Summer Semester.
 - *2024.09 - 2025.05*, New York University, International Exchange, College of Art and Science.
 - *2023.07 - 2023.08*, University of Oxford, Summer School, Oriel College.
+- *2019.09 - 2022.06*, The Experimental High School Attached to Beijing Normal University, High School.
 
 # 💻 Internships
 - *2023.06 - 2023.11*, [BDA](http://www.bda.com/), Remote.
 - *2023.12 - 2024.02*, [China Development Research Foundation](https://cdrf-en.cdrf.org.cn/), Beijing.
 - *2024.06 - 2024.08*, [China Life Capital](https://www.chinalifepe.com/en/gsgq-equity-index/), Beijing.
-- *2025.03 - 2025.05*, [Shanghai Institute of AI for Education](https://aiedu.ecnu.edu.cn/), Shanghai.
+- *2025.03 - 2025.05*, [Shanghai Institute of AI for Education](https://aiedu.ecnu.edu.cn/), Remote.
 - *2025.05 - 2025.10*, [Pervasive Human Computer Interaction Laboratory](https://pi.cs.tsinghua.edu.cn/), Beijing.
 
 # 📷 Moments
