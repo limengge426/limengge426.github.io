@@ -43,19 +43,26 @@
   /* ---------- Theme: the lamp cord ---------- */
   const currentTheme = () => root.dataset.theme || (darkQuery.matches ? 'dark' : 'light');
 
+  let switching = false;
   function switchTheme(x, y) {
+    if (switching) return;              // ignore a second tug while the reveal is still running
     const next = currentTheme() === 'dark' ? 'light' : 'dark';
     const apply = () => {
       root.dataset.theme = next;
       try { localStorage.setItem('theme', next); } catch (e) { /* private mode */ }
     };
     if (!document.startViewTransition || reduceMotion) { apply(); return; }
+    switching = true;
     const t = document.startViewTransition(apply);
+    t.finished.finally(() => { switching = false; });
     t.ready.then(() => {
-      const r = Math.hypot(Math.max(x, innerWidth - x), Math.max(y, innerHeight - y));
+      // Origin as a percentage of the viewport, so it lands on the click point even if the
+      // browser sizes the snapshot differently from innerWidth/innerHeight (zoom, scrollbars).
+      const px = (x / innerWidth) * 100, py = (y / innerHeight) * 100;
+      const r = Math.hypot(Math.max(x, innerWidth - x), Math.max(y, innerHeight - y)) + 40;
       root.animate(
-        { clipPath: [`circle(0px at ${x}px ${y}px)`, `circle(${r}px at ${x}px ${y}px)`] },
-        { duration: 650, easing: 'cubic-bezier(.4,0,.2,1)', pseudoElement: '::view-transition-new(root)' }
+        { clipPath: [`circle(0px at ${px}% ${py}%)`, `circle(${r}px at ${px}% ${py}%)`] },
+        { duration: 650, easing: 'cubic-bezier(.4,0,.2,1)', fill: 'both', pseudoElement: '::view-transition-new(root)' }
       );
     }).catch(() => {});
   }
@@ -84,7 +91,7 @@
       pull = Math.max(0, Math.min(44, e.clientY - startY));
       lamp.style.setProperty('--pull', pull + 'px');
     });
-    const release = () => {
+    const release = (e) => {
       if (startY === null) return;
       startY = null;
       lamp.classList.remove('dragging');
@@ -92,7 +99,8 @@
       lamp.style.setProperty('--pull', '0px');
       if (wasPull > 14 || wasPull < 4) {
         if (wasPull < 4) tug();
-        const [x, y] = beadCenter();
+        // Grow the circle from where the pointer actually was, like a light switch under your finger
+        const [x, y] = Number.isFinite(e.clientX) && (e.clientX || e.clientY) ? [e.clientX, e.clientY] : beadCenter();
         switchTheme(x, y);
       }
     };
