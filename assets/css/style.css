@@ -593,17 +593,13 @@ strong, b { font-weight: 600; }
   aspect-ratio: 4 / 5;
   perspective: 900px;
   position: relative;
-  cursor: pointer;
   border-radius: 10px;
 }
 .flip__inner {
   position: relative;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
-  transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
 }
-.flip.is-flipped .flip__inner { transform: rotateY(180deg); }
 .flip__face {
   position: absolute;
   inset: 0;
@@ -649,41 +645,6 @@ strong, b { font-weight: 600; }
   font-size: 1rem;
   color: var(--text-3);
 }
-.flip__back {
-  transform: rotateY(180deg);
-  background: var(--surface);
-  padding: 0.9rem 0.95rem;
-  display: flex;
-  flex-direction: column;
-}
-.flip__back h4 {
-  font-family: var(--font-display);
-  font-style: italic;
-  font-weight: 500;
-  font-size: 1rem;
-  margin-bottom: 0.45rem;
-  color: var(--accent);
-}
-.flip__back ul { list-style: none; display: grid; gap: 0.5rem; }
-.flip__back li { font-size: 0.72rem; line-height: 1.35; color: var(--text-2); display: flex; gap: 0.4rem; }
-.flip__back li span:first-child { flex-shrink: 0; }
-.flip__hint {
-  position: absolute;
-  right: -6px;
-  bottom: -10px;
-  z-index: 2;
-  padding: 0.05rem 0.5rem;
-  font-size: 0.68rem;
-  color: var(--text-2);
-  background: var(--bg);
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  box-shadow: var(--shadow);
-  transform: rotate(-4deg);
-  transition: transform 0.3s;
-  pointer-events: none;
-}
-.flip:hover .flip__hint { transform: rotate(3deg) translateY(-2px); }
 
 .contact { width: 100%; display: grid; gap: 0.2rem; }
 .contact__row {
@@ -1701,10 +1662,7 @@ a.tl__item:hover .tl__bar { transform: scaleY(1.35); box-shadow: 0 0 0 4px color
   .bio__side { flex-direction: row; align-items: flex-start; gap: 1rem; }
   .flip { width: 128px; flex-shrink: 0; }
   .monogram span { font-size: 2.5rem; }
-  .flip__back { padding: 0.6rem; }
-  .flip__back h4 { font-size: 0.85rem; margin-bottom: 0.25rem; }
-  .flip__back li { font-size: 0.66rem; }
-  .side-info { display: grid; gap: 0.8rem; min-width: 0; flex: 1; }
+        .side-info { display: grid; gap: 0.8rem; min-width: 0; flex: 1; }
   .socials { justify-content: flex-start; }
   .bio__text { margin-top: 0; }
   .meta { grid-template-columns: 1fr; gap: 0.5rem; }

@@ -191,19 +191,6 @@
     });
   }
 
-  /* ---------- Photo card flip ---------- */
-  const flip = $('.flip');
-  if (flip) {
-    const doFlip = () => {
-      const on = flip.classList.toggle('is-flipped');
-      flip.setAttribute('aria-pressed', String(on));
-    };
-    flip.addEventListener('click', doFlip);
-    flip.addEventListener('keydown', (e) => {
-      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); doFlip(); }
-    });
-  }
-
   /* ---------- Flip logos (FacePhys -> Tsinghua); the back image loads on first hover ---------- */
   $$('.logo-flip').forEach((btn) => {
     const lazy = $('img[data-src]', btn);
