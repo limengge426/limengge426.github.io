@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Internships · Limeng Ge</title>
+  <meta name="description" content="Limeng Ge's internships: multimodal LLM post-training at SHEIN, wearable blood-pressure modeling at FacePhys, and value-alignment data at Shanghai AI Laboratory.">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <script>(function(){var t;try{t=localStorage.getItem('theme')}catch(e){}if(t)document.documentElement.dataset.theme=t;})();</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="page-internships">
+
+  <nav class="nav" aria-label="Main">
+    <div class="nav__inner">
+      <a class="brand" href="index.html" aria-label="Limeng Ge, home">
+        <svg class="logo" viewBox="0 0 40 40" aria-hidden="true">
+          <circle class="logo__c logo__m" cx="20" cy="14" r="9.5"/>
+          <circle class="logo__c logo__s" cx="14.5" cy="23.5" r="9.5"/>
+          <circle class="logo__c logo__p" cx="25.5" cy="23.5" r="9.5"/>
+        </svg>
+        <span>Limeng Ge</span>
+      </a>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="index.html">About</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="internships.html" class="active" aria-current="page">Internships</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li class="nav__lab"><a href="lab.html"><span class="lab-dots" aria-hidden="true"><i></i><i></i><i></i></span>Syllogism Lab</a></li>
+        <li><a href="assets/Limeng_Ge_CV.pdf" target="_blank" rel="noopener">CV <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+      </ul>
+      <button class="nav__toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links"><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <button class="lamp" type="button" aria-label="Toggle dark mode">
+    <span class="lamp__cord"></span>
+    <span class="lamp__bead"></span>
+    <span class="lamp__hint">pull for lights</span>
+  </button>
+
+  <main>
+    <header class="page-head">
+      <div class="container">
+        <h1>Internships</h1>
+        <p>Models I shipped, data I built, and what changed because of them.</p>
+
+        <div class="hire">
+          <p><span class="status__dot" aria-hidden="true"></span><span>Available for a Summer 2027 internship in ML / LLMs, <b>June to September 2027</b>.</span></p>
+          <div class="hire__actions">
+            <a class="btn-solid" href="mailto:limengge@uchicago.edu"><i class="fa-regular fa-envelope"></i> Email me</a>
+            <a class="btn-quiet" href="assets/Limeng_Ge_CV.pdf" target="_blank" rel="noopener" style="margin-top:0"><i class="fa-regular fa-file-lines"></i> Résumé (PDF)</a>
+          </div>
+        </div>
+
+        <div class="tl" aria-label="Timeline of internships and study, 2025 to 2027">
+          <div class="tl__inner" style="--span: 33">
+            <a class="tl__item" href="#sail" style="--l:6.06%; --w:9.09%; --t:6px; --k: var(--venn-p)" title="Shanghai AI Laboratory · Mar – May 2025">
+              <span class="tl__label">Shanghai AI Lab</span><span class="tl__bar"></span>
+            </a>
+            <a class="tl__item" href="#facephys" style="--l:12.12%; --w:18.18%; --t:58px; --k: var(--venn-s)" title="FacePhys · May – Oct 2025">
+              <span class="tl__label">FacePhys</span><span class="tl__bar"></span>
+            </a>
+            <a class="tl__item" href="#shein" style="--l:42.42%; --w:18.18%; --t:6px; --k: var(--venn-m)" title="SHEIN · Mar – Aug 2026">
+              <span class="tl__label">SHEIN</span><span class="tl__bar"></span>
+            </a>
+            <span class="tl__item tl__item--edu" style="--l:60.6%; --w:39.4%; --t:58px; --k: var(--text-3)" title="M.S. in Computer Science, University of Chicago · Sep 2026 – Dec 2027">
+              <span class="tl__label">M.S. at UChicago</span><span class="tl__bar"></span>
+            </span>
+            <a class="tl__item tl__item--open" href="mailto:limengge@uchicago.edu" style="--l:87.88%; --w:12.12%; --t:6px; --k: var(--good)" title="Summer 2027: available for an internship">
+              <span class="tl__label">Summer 2027: your team?</span><span class="tl__bar"></span>
+            </a>
+            <span class="tl__axis"></span>
+            <span class="tl__year" style="left:0">2025</span>
+            <span class="tl__year" style="left:36.36%">2026</span>
+            <span class="tl__year" style="left:72.73%">2027</span>
+            <span class="tl__now" data-now hidden><span>now</span></span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="container interns">
+
+        <article class="intern reveal" id="shein" style="--k: var(--venn-m)">
+          <header class="intern__head">
+            <span class="badge" style="--c: var(--venn-m)">S</span>
+            <div class="intern__who">
+              <h2>SHEIN</h2>
+              <p class="intern__role">Machine Learning Engineer Intern</p>
+            </div>
+            <p class="intern__when">Mar – Aug 2026<span>Shanghai, China</span></p>
+          </header>
+          <p class="intern__lede">Post-trained and shipped a multimodal LLM that screens merchant uploads site-wide for prohibited items.</p>
+
+          <div class="metrics">
+            <div class="metric">
+              <span class="metric__num" data-count="87" data-suffix="%">87%</span>
+              <span class="metric__label">of moderation decisions automated in production</span>
+            </div>
+            <div class="shift" style="--from: 92%; --to: 98%">
+              <div class="shift__top"><span>Recall</span><b>92% → 98%</b></div>
+              <div class="shift__track"><i class="shift__to"></i><i class="shift__from"></i></div>
+              <span class="metric__label">after GRPO, at flat precision</span>
+            </div>
+            <div class="shift" style="--from: 7.3%; --to: 29.6%">
+              <div class="shift__top"><span>Duplicates found</span><b>7.3% → 29.6%</b></div>
+              <div class="shift__track"><i class="shift__to"></i><i class="shift__from"></i></div>
+              <span class="metric__label">on 50K images, about 4× more</span>
+            </div>
+          </div>
+
+          <ul class="intern__points">
+            <li>Post-trained <b>Qwen3-VL-4B</b> on a 100K chain-of-thought dataset (MS-SWIFT, multi-GPU) and shipped it to production, where it scans merchant uploads for prohibited items.</li>
+            <li>Aligned the SFT checkpoint with <b>RLVR / GRPO</b>, redesigning the accuracy, format and length rewards with asymmetric penalties for misses.</li>
+            <li>Built a three-stage cascaded <b>image deduplication</b> service (MD5 → pHash/dHash → DINOv3 retrieval) with multi-GPU inference and resumable feature caching.</li>
+            <li>Designed a two-layer <b>chain-of-thought auditing</b> tool for hallucinations and answers that contradict their own reasoning. It flagged 7% erroneous CoT in production, filtered out 30% low-quality samples, and raised the L2 model's accuracy to 92%.</li>
+          </ul>
+          <div class="stack"><span>Qwen3-VL</span><span>MS-SWIFT</span><span>SFT</span><span>RLVR / GRPO</span><span>DINOv3</span><span>Multi-GPU</span></div>
+        </article>
+
+        <article class="intern reveal" id="facephys" style="--k: var(--venn-s)">
+          <header class="intern__head">
+            <span class="badge" style="--c: var(--venn-s)">F</span>
+            <div class="intern__who">
+              <h2>FacePhys</h2>
+              <p class="intern__role">Research Intern</p>
+            </div>
+            <p class="intern__when">May – Oct 2025<span>Beijing, China</span></p>
+          </header>
+          <p class="intern__lede">Predicted the full blood-pressure waveform from wearable signals, not just two numbers.</p>
+
+          <div class="metrics">
+            <div class="metric">
+              <span class="metric__num" data-count="100" data-suffix="+">100+</span>
+              <span class="metric__label">participants in WearNet, the database I built</span>
+            </div>
+            <div class="metric">
+              <span class="metric__num" data-count="30" data-prefix="−" data-suffix="%">−30%</span>
+              <span class="metric__label">SBP/DBP error (MAE) vs. a pointwise-loss baseline</span>
+            </div>
+          </div>
+
+          <ul class="intern__points">
+            <li>Built <b>WearNet</b>, a multimodal physiological-signal database that unifies wearable and lab-grade reference recordings with millisecond-level alignment and signal-quality labels.</li>
+            <li>Developed a <b>1D U-Net</b> that predicts the continuous blood-pressure waveform instead of pointwise systolic and diastolic estimates, giving richer signals for wearable health monitoring.</li>
+            <li>Introduced a combined loss (key-point error, trend deviation, dicrotic-notch constraint) that cut SBP/DBP MAE by 30% on the internal validation set.</li>
+          </ul>
+          <div class="stack"><span>PyTorch</span><span>UNet1D</span><span>Signal processing</span><span>Wearables</span></div>
+        </article>
+
+        <article class="intern reveal" id="sail" style="--k: var(--venn-p)">
+          <header class="intern__head">
+            <span class="badge" style="--c: var(--venn-p)">AI</span>
+            <div class="intern__who">
+              <h2>Shanghai AI Laboratory</h2>
+              <p class="intern__role">AI Data Engineering Intern</p>
+            </div>
+            <p class="intern__when">Mar – May 2025<span>Remote</span></p>
+          </header>
+          <p class="intern__lede">Turned cultural values into something an LLM can be scored and aligned on.</p>
+
+          <div class="metrics">
+            <div class="metric">
+              <span class="metric__num" data-count="40" data-suffix="+">40+</span>
+              <span class="metric__label">Chinese cultural values made machine-scorable</span>
+            </div>
+            <div class="metric">
+              <span class="metric__num" data-count="15" data-prefix="+" data-suffix="%">+15%</span>
+              <span class="metric__label">alignment score after fine-tuning</span>
+            </div>
+            <div class="metric">
+              <span class="metric__num" data-count="25" data-prefix="−" data-suffix="%">−25%</span>
+              <span class="metric__label">unsafe outputs on an internal benchmark</span>
+            </div>
+          </div>
+
+          <ul class="intern__points">
+            <li>Defined a multi-dimensional <b>evaluation framework</b> covering 40+ Chinese cultural values, translating abstract value semantics into structured, machine-scorable metrics for LLM alignment.</li>
+            <li>Curated an <b>SFT / RLHF dataset</b> of 1K value-aligned texts and 800 chosen/rejected preference pairs for fine-tuning.</li>
+          </ul>
+          <div class="stack"><span>SFT</span><span>RLHF</span><span>Preference data</span><span>LLM evaluation</span></div>
+        </article>
+
+        <p class="earlier reveal">
+          <b>Beyond internships:</b> at East China Normal University I founded the esports club's VALORANT department
+          and led it from 2023 to 2025. Our largest event had 2,000 online participants and 160 people on site.
+        </p>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="container">
+        <h2 class="section-title">Toolbox</h2>
+        <div class="toolbox">
+          <div class="toolbox__row">
+            <span class="toolbox__label">Languages</span>
+            <div class="stack"><span>Python</span><span>Java</span><span>C</span><span>C++</span><span>SQL</span></div>
+          </div>
+          <div class="toolbox__row">
+            <span class="toolbox__label">Machine learning</span>
+            <div class="stack"><span>PyTorch</span><span>Hugging Face</span><span>SFT / RLHF / GRPO</span><span>Multimodal LLMs</span><span>RAG</span><span>Multi-GPU training</span></div>
+          </div>
+          <div class="toolbox__row">
+            <span class="toolbox__label">Tools</span>
+            <div class="stack"><span>Git</span><span>Linux</span><span>Docker</span><span>AWS</span><span>PostgreSQL</span><span>Redis</span><span>Kubernetes</span><span>vLLM</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <span>© 2026 Limeng Ge · Updated Sep 2026</span>
+      <span>psst: click anywhere, or pull the cord ↗</span>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

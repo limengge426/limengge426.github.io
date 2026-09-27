@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Research · Limeng Ge</title>
+  <meta name="description" content="Limeng Ge's research on LLM reasoning, AI and human writing, and auditable AI, with a full publication list.">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <script>(function(){var t;try{t=localStorage.getItem('theme')}catch(e){}if(t)document.documentElement.dataset.theme=t;})();</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="page-research">
+
+  <nav class="nav" aria-label="Main">
+    <div class="nav__inner">
+      <a class="brand" href="index.html" aria-label="Limeng Ge, home">
+        <svg class="logo" viewBox="0 0 40 40" aria-hidden="true">
+          <circle class="logo__c logo__m" cx="20" cy="14" r="9.5"/>
+          <circle class="logo__c logo__s" cx="14.5" cy="23.5" r="9.5"/>
+          <circle class="logo__c logo__p" cx="25.5" cy="23.5" r="9.5"/>
+        </svg>
+        <span>Limeng Ge</span>
+      </a>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="index.html">About</a></li>
+        <li><a href="research.html" class="active" aria-current="page">Research</a></li>
+        <li><a href="internships.html">Internships</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li class="nav__lab"><a href="lab.html"><span class="lab-dots" aria-hidden="true"><i></i><i></i><i></i></span>Syllogism Lab</a></li>
+        <li><a href="assets/Limeng_Ge_CV.pdf" target="_blank" rel="noopener">CV <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+      </ul>
+      <button class="nav__toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links"><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <button class="lamp" type="button" aria-label="Toggle dark mode">
+    <span class="lamp__cord"></span>
+    <span class="lamp__bead"></span>
+    <span class="lamp__hint">pull for lights</span>
+  </button>
+
+  <main>
+    <header class="hero">
+      <div class="container">
+        <svg class="logo logo--hero" viewBox="-4 -4 48 48" role="button" tabindex="0" aria-label="Toggle the logo between the therefore sign and a Venn diagram">
+          <circle class="logo__c logo__m" cx="20" cy="14" r="9.5"/>
+          <circle class="logo__c logo__s" cx="14.5" cy="23.5" r="9.5"/>
+          <circle class="logo__c logo__p" cx="25.5" cy="23.5" r="9.5"/>
+          <text class="logo__label" x="20" y="1.2">M</text>
+          <text class="logo__label" x="2.2" y="36.5">S</text>
+          <text class="logo__label" x="37.8" y="36.5">P</text>
+        </svg>
+        <h1>Research</h1>
+        <p>I study reasoning, in models and in people, and try to build AI whose work can be checked.</p>
+        <p class="hero__hint">The logo is the “therefore” sign ∴. Click it: its three dots are also the three terms of a syllogism.</p>
+      </div>
+    </header>
+
+    <section class="section reveal">
+      <div class="container">
+        <h2 class="section-title">Three questions I keep asking</h2>
+        <div class="threads">
+          <article class="thread" style="--k: var(--venn-m)">
+            <div class="thread__icon" aria-hidden="true">∴</div>
+            <h3>Do models reason?</h3>
+            <p>
+              Classical logic lets me separate reasoning from world knowledge. On 11,000 syllogisms,
+              five frontier LLMs fail on the same forms, say “yes” too readily, and depend on where the
+              middle term sits in a sentence. That looks like surface patterns, not logical structure.
+            </p>
+            <div class="thread__links">
+              <a class="chip-link" href="https://openreview.net/pdf?id=fMIpSy6NVW" target="_blank" rel="noopener"><i class="fa-solid fa-file-pdf"></i> Paper</a>
+              <a class="chip-link" href="https://github.com/limengge426/llm-syllogism" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code</a>
+              <a class="chip-link" href="lab.html">∴ Try it</a>
+            </div>
+          </article>
+          <article class="thread" style="--k: var(--venn-s)">
+            <div class="thread__icon" aria-hidden="true"><i class="fa-solid fa-pen-nib" style="font-size:.95rem"></i></div>
+            <h3>What does AI do to how we write?</h3>
+            <p>
+              When people worry that their writing sounds like AI, do they start writing differently?
+              I study how this <em>AI-likeness pressure</em> reshapes the way people express themselves.
+            </p>
+            <div class="thread__links">
+              <span class="chip-link">AAAI 2027 · under review</span>
+            </div>
+          </article>
+          <article class="thread" style="--k: var(--venn-p)">
+            <div class="thread__icon" aria-hidden="true"><i class="fa-solid fa-magnifying-glass" style="font-size:.95rem"></i></div>
+            <h3>Can we audit what AI makes?</h3>
+            <p>
+              LLM outputs are mostly judged by how good they look. I argue they should also be
+              auditable, and I build systems that make this concrete, like DeepTrace, a research
+              agent whose judge checks every citation against its source.
+            </p>
+            <div class="thread__links">
+              <a class="chip-link" href="projects.html#deeptrace"><i class="fa-solid fa-diagram-project"></i> DeepTrace</a>
+              <span class="chip-link">ICDM 2026 BlueSky</span>
+            </div>
+          </article>
+        </div>
+        <p class="earlier">
+          <b>Before this:</b> AI for health. I built a wearable physiological-signal database and a model that
+          predicts continuous blood-pressure waveforms, and co-authored papers on AI in remote cardiac
+          rehabilitation and on the philosophy of psycho-cardiology.
+        </p>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="container">
+        <h2 class="section-title">Questions I want to answer next</h2>
+        <ol class="questions">
+          <li>Does chain-of-thought prompting remove the middle-term bias, or only hide it?</li>
+          <li>Do humans and LLMs share the mechanisms behind their reasoning errors, or only the errors?</li>
+          <li>Do these syntactic biases carry over to quantifiers like “most” and “few”, and to richer natural logic?</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section reveal" id="pubs">
+      <div class="container">
+        <h2 class="section-title">Publications</h2>
+
+        <div class="filters" role="group" aria-label="Filter publications">
+          <div class="filters__row">
+            <span class="filters__label">Topic</span>
+            <button class="chip" type="button" data-group="topic" data-value="all" aria-pressed="true">All</button>
+            <button class="chip" type="button" data-group="topic" data-value="reasoning" aria-pressed="false">Reasoning</button>
+            <button class="chip" type="button" data-group="topic" data-value="writing" aria-pressed="false">Writing</button>
+            <button class="chip" type="button" data-group="topic" data-value="auditability" aria-pressed="false">Auditability</button>
+            <button class="chip" type="button" data-group="topic" data-value="health" aria-pressed="false">Health</button>
+          </div>
+          <div class="filters__row">
+            <span class="filters__label">Type</span>
+            <button class="chip" type="button" data-group="type" data-value="all" aria-pressed="true">All</button>
+            <button class="chip" type="button" data-group="type" data-value="conference" aria-pressed="false">Conference</button>
+            <button class="chip" type="button" data-group="type" data-value="workshop" aria-pressed="false">Workshop</button>
+            <button class="chip" type="button" data-group="type" data-value="journal" aria-pressed="false">Journal</button>
+          </div>
+          <p class="filters__count" aria-live="polite"></p>
+        </div>
+
+        <div class="year-group">
+          <p class="year-group__label">Under review</p>
+          <ul class="pubs">
+            <li class="pub" data-topic="writing" data-type="conference">
+              <div class="pub__thumb" aria-hidden="true">
+                <svg viewBox="0 0 80 60"><line class="t-line" x1="10" y1="15" x2="70" y2="15"/><line class="t-line" x1="10" y1="25" x2="64" y2="25"/><line class="t-hl" x1="26" y1="25" x2="52" y2="25"/><line class="t-line" x1="10" y1="35" x2="68" y2="35"/><line class="t-line" x1="10" y1="45" x2="40" y2="45"/><path class="t-ink" d="M46 49l14-14 4 4-14 14h-4z"/></svg>
+              </div>
+              <div class="pub__body">
+                <div class="pub__title">Am I the AI? How AI-Likeness Pressure Reshapes Human Writing Expression</div>
+                <div class="pub__authors"><span class="me">Limeng Ge</span>, M. Qian</div>
+                <div class="pub__venue">AAAI 2027 AI for Social Impact Track <span class="pill">Under review</span></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="year-group">
+          <p class="year-group__label">2026</p>
+          <ul class="pubs">
+            <li class="pub" data-topic="auditability" data-type="conference">
+              <div class="pub__thumb" aria-hidden="true">
+                <svg viewBox="0 0 80 60"><rect class="t-ink" x="14" y="7" width="36" height="46" rx="3"/><line class="t-line" x1="21" y1="17" x2="43" y2="17"/><line class="t-line" x1="21" y1="25" x2="43" y2="25"/><line class="t-line" x1="21" y1="33" x2="36" y2="33"/><circle class="t-accent" cx="50" cy="37" r="10"/><line class="t-accent" x1="57.5" y1="44.5" x2="66" y2="53"/><path class="t-accent" d="M45.5 37.5l3.2 3.2 5.6-6.4"/></svg>
+              </div>
+              <div class="pub__body">
+                <div class="pub__title">From Output Quality to Auditability: A Data Mining Agenda for LLM-Generated Artifacts</div>
+                <div class="pub__authors">M. Qian, <span class="me">Limeng Ge</span></div>
+                <div class="pub__venue">ICDM 2026 BlueSky Track <span class="pill pill--ok">Accepted</span></div>
+              </div>
+            </li>
+            <li class="pub" data-topic="reasoning" data-type="workshop">
+              <div class="pub__thumb" aria-hidden="true">
+                <svg viewBox="0 0 80 60"><circle class="t-m" cx="40" cy="22" r="14"/><circle class="t-s" cx="32" cy="36" r="14"/><circle class="t-p" cx="48" cy="36" r="14"/></svg>
+              </div>
+              <div class="pub__body">
+                <div class="pub__title"><a href="https://openreview.net/pdf?id=fMIpSy6NVW" target="_blank" rel="noopener">Consistent Biases in Large Language Models' Syllogistic Reasoning</a></div>
+                <div class="pub__authors"><span class="me">Limeng Ge</span></div>
+                <div class="pub__venue">AAAI 2026 Bridge Program on Logical and Symbolic Reasoning in Language Models</div>
+                <div class="pub__links">
+                  <a class="chip-link" href="https://openreview.net/pdf?id=fMIpSy6NVW" target="_blank" rel="noopener"><i class="fa-solid fa-file-pdf"></i> PDF</a>
+                  <a class="chip-link" href="https://github.com/limengge426/llm-syllogism" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code <span class="stars" data-stars="limengge426/llm-syllogism"></span></a>
+                  <a class="chip-link" href="lab.html">∴ Play the game</a>
+                  <button class="chip-link" type="button" data-tldr aria-expanded="false">TL;DR</button>
+                  <button class="chip-link" type="button" data-bib="@inproceedings{ge2026consistent,&#10;  title     = {Consistent Biases in Large Language Models' Syllogistic Reasoning},&#10;  author    = {Ge, Limeng},&#10;  booktitle = {AAAI 2026 Bridge Program: Logical and Symbolic Reasoning in Language Models},&#10;  year      = {2026},&#10;  url       = {https://github.com/limengge426/llm-syllogism}&#10;}"><i class="fa-solid fa-quote-right"></i> Cite</button>
+                </div>
+                <div class="pub__tldr" hidden>
+                  Across <b>11,000</b> syllogisms in all 44 classical forms, five LLMs find the <b>same forms hard</b>
+                  (mean pairwise <i>r</i> = 0.886). Every model accepts valid conclusions far more reliably than it rejects
+                  invalid ones (a <b>26–35 point gap</b>), and accuracy rises when the middle term is the grammatical subject.
+                </div>
+              </div>
+            </li>
+            <li class="pub" data-topic="health" data-type="journal">
+              <div class="pub__thumb" aria-hidden="true">
+                <svg viewBox="0 0 80 60"><polyline class="t-accent" points="6,34 22,34 28,22 34,46 40,12 46,38 52,34 74,34"/></svg>
+              </div>
+              <div class="pub__body">
+                <div class="pub__title"><a href="https://pubmed.ncbi.nlm.nih.gov/41822386/" target="_blank" rel="noopener">Integrating Artificial Intelligence Into Digital Health-Optimized Therapeutics for the Remote Cardiac Rehabilitation</a></div>
+                <div class="pub__authors">X. Wan, <span class="me">Limeng Ge</span>, J. Tian, G. Ding, et al.</div>
+                <div class="pub__venue">Clinical Medicine Insights: Cardiology, 20, 1–19</div>
+                <div class="pub__links">
+                  <a class="chip-link" href="https://pubmed.ncbi.nlm.nih.gov/41822386/" target="_blank" rel="noopener"><i class="fa-solid fa-book-medical"></i> PubMed</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="year-group">
+          <p class="year-group__label">2024</p>
+          <ul class="pubs">
+            <li class="pub" data-topic="health" data-type="journal">
+              <div class="pub__thumb" aria-hidden="true">
+                <svg viewBox="0 0 80 60"><polyline class="t-accent" points="6,34 22,34 28,22 34,46 40,12 46,38 52,34 74,34"/></svg>
+              </div>
+              <div class="pub__body">
+                <div class="pub__title"><a href="https://yizhe.dmu.edu.cn/en/article/doi/10.12014/j.issn.1002-0772.2024.24.10" target="_blank" rel="noopener">Philosophical Reflection and Educational Exploration in the Clinical Practice of Psycho-cardiology</a></div>
+                <div class="pub__authors">G. Ding, <span class="me">Limeng Ge</span>, B. Gao, et al. <span class="muted">(co-first author)</span></div>
+                <div class="pub__venue">Medicine and Philosophy, 45(24), 50–53, 58</div>
+                <div class="pub__links">
+                  <a class="chip-link" href="https://yizhe.dmu.edu.cn/en/article/doi/10.12014/j.issn.1002-0772.2024.24.10" target="_blank" rel="noopener"><i class="fa-solid fa-file-lines"></i> Paper</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <span>© 2026 Limeng Ge · Updated Sep 2026</span>
+      <span>psst: click anywhere, or pull the cord ↗</span>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
