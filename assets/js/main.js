@@ -196,6 +196,19 @@
     });
   }
 
+  /* ---------- Flip logos (FacePhys -> Tsinghua); the back image loads on first hover ---------- */
+  $$('.logo-flip').forEach((btn) => {
+    const lazy = $('img[data-src]', btn);
+    const load = () => { if (lazy && !lazy.getAttribute('src')) lazy.src = lazy.dataset.src; };
+    btn.addEventListener('pointerenter', load);
+    btn.addEventListener('focus', load);
+    btn.addEventListener('click', () => {
+      load();
+      const on = btn.classList.toggle('is-flipped');
+      btn.setAttribute('aria-pressed', String(on));
+    });
+  });
+
   /* ---------- Copy buttons ---------- */
   $$('[data-copy]').forEach((btn) => {
     btn.addEventListener('click', async () => {
