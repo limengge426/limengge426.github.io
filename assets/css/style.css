@@ -423,11 +423,17 @@ strong, b { font-weight: 600; }
   flex-wrap: wrap;
   gap: 0 0.5rem;
 }
+.bio__name .aka {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--text-2);
+  letter-spacing: 0;
+}
 .bio__name .cjk {
   font-family: var(--font-cjk);
-  font-size: 1.15rem;
+  font-size: 0.96em;
   font-weight: 500;
-  color: var(--text-2);
 }
 .bio__title {
   margin-top: 0.45rem;
