@@ -209,6 +209,26 @@
     });
   });
 
+  /* ---------- Publication covers: click to enlarge ---------- */
+  const thumbs = $$('.pub__thumb[data-full]');
+  if (thumbs.length && 'HTMLDialogElement' in window) {
+    const box = document.createElement('dialog');
+    box.className = 'lightbox';
+    box.innerHTML = '<figure><img alt=""><figcaption></figcaption></figure><button class="lightbox__close" type="button" aria-label="Close">×</button>';
+    document.body.appendChild(box);
+    const img = $('img', box), cap = $('figcaption', box);
+    const close = () => box.close();
+    $('.lightbox__close', box).addEventListener('click', close);
+    box.addEventListener('click', (e) => { if (e.target === box) close(); });
+    thumbs.forEach((t) => t.addEventListener('click', () => {
+      const pub = t.closest('.pub');
+      img.src = t.dataset.full;
+      img.alt = $('img', t).alt;
+      cap.textContent = $('.pub__title', pub).textContent.trim();
+      box.showModal();
+    }));
+  }
+
   /* ---------- Copy buttons ---------- */
   $$('[data-copy]').forEach((btn) => {
     btn.addEventListener('click', async () => {
