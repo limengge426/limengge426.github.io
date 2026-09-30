@@ -1653,7 +1653,7 @@ a.tl__item:hover .tl__bar { transform: scaleY(1.35); box-shadow: 0 0 0 4px color
   .nav__links a { padding: 0.7rem 0.3rem; font-size: 0.8rem; border-radius: 6px; }
   .nav__links a.active::after { display: none; }
   .nav__lab a { margin: 0.3rem 0 0; justify-content: center; }
-  .lamp { position: absolute; right: 0; width: 20px; height: 56px; }
+  .lamp { position: absolute; right: calc(var(--gutter) + 8px); width: 20px; height: 56px; }
   .lamp__cord { height: calc(34px + var(--pull)); }
   @keyframes tug { 0% { height: 34px; } 35% { height: 52px; } 100% { height: 34px; } }
 
