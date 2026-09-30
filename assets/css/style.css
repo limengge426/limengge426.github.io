@@ -395,6 +395,11 @@ strong, b { font-weight: 600; }
 ::view-transition-old(root),
 ::view-transition-new(root) { animation: none; mix-blend-mode: normal; }
 
+/* Touch screens have no hover: the hint would only pop up after a tap and cover the text next to it */
+@media (hover: none), (max-width: 760px) {
+  .lamp__hint { display: none; }
+}
+
 /* ---------- 6. Bio card (home) ---------- */
 .bio { padding: 2.75rem 0 2rem; }
 
@@ -1648,7 +1653,7 @@ a.tl__item:hover .tl__bar { transform: scaleY(1.35); box-shadow: 0 0 0 4px color
   .nav__links a { padding: 0.7rem 0.3rem; font-size: 0.8rem; border-radius: 6px; }
   .nav__links a.active::after { display: none; }
   .nav__lab a { margin: 0.3rem 0 0; justify-content: center; }
-  .lamp { position: absolute; right: 64px; height: 64px; }
+  .lamp { position: absolute; right: 0; width: 20px; height: 56px; }
   .lamp__cord { height: calc(34px + var(--pull)); }
   @keyframes tug { 0% { height: 34px; } 35% { height: 52px; } 100% { height: 34px; } }
 
